@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.List;
 
+//object adapter
 public class CalculatorAdapter implements AccumulatableAPI {
     private final Calculatable calculator;
     private double sum;
